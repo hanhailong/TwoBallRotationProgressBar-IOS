@@ -11,9 +11,9 @@ IOS版本的两个小球绕中心旋转的进度条，可设置颜色、小球�
 
 #How to use
 ##like this:
-`TwoBallRotationProgressBar *progressBar2 = [[TwoBallRotationProgressBar alloc] initWithFrame:CGRectMake(0, screen_height/5, screen_width, screen_height/5)];
+ `
+TwoBallRotationProgressBar *progressBar2 = [[TwoBallRotationProgressBar alloc] initWithFrame:CGRectMake(0, screen_height/5, screen_width, screen_height/5)];
     [self.view addSubview:progressBar2];
-    
     [progressBar2 setOneBallColor:[UIColor greenColor] twoBallColor:[UIColor yellowColor]];
     //设置俩小球最大半径6
     [progressBar2 setBallMaxRadius:8];

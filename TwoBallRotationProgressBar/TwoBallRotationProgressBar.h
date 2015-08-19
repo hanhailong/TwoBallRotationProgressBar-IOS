@@ -11,18 +11,11 @@
 @interface TwoBallRotationProgressBar : UIView
 
 /**
- *  设置小球最大半径
+ *  设置小球的半径
  *
  *  @param radius 半径
  */
-- (void)setBallMaxRadius:(CGFloat)radius;
-
-/**
- *  设置小球最小半径
- *
- *  @param radius 半径
- */
-- (void)setBallMinRadius:(CGFloat)radius;
+- (void)setBallRadius:(CGFloat)radius;
 
 /**
  *  设置俩小球颜色

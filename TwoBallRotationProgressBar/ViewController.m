@@ -31,10 +31,8 @@
     [self.view addSubview:progressBar1];
     
     [progressBar1 setOneBallColor:[UIColor blueColor] twoBallColor:[UIColor blackColor]];
-    //设置俩小球最大半径6
-    [progressBar1 setBallMaxRadius:6];
-    //设置俩小球最小半径3
-    [progressBar1 setBallMinRadius:3];
+    //设置俩小球的半径6
+    [progressBar1 setBallRadius:6];
     //设置动画时间1.5秒
     [progressBar1 setAnimatorDuration:1.5];
     
@@ -45,10 +43,8 @@
     [self.view addSubview:progressBar2];
     
     [progressBar2 setOneBallColor:[UIColor greenColor] twoBallColor:[UIColor yellowColor]];
-    //设置俩小球最大半径6
-    [progressBar2 setBallMaxRadius:8];
-    //设置俩小球最小半径3
-    [progressBar2 setBallMinRadius:4];
+    //设置俩小球的半径8
+    [progressBar2 setBallRadius:8];
     //设置动画时间1.5秒
     [progressBar2 setAnimatorDuration:1.5];
     [progressBar2 setAnimatorDistance:30];
@@ -60,10 +56,8 @@
     [self.view addSubview:progressBar3];
     
     [progressBar3 setOneBallColor:[UIColor redColor] twoBallColor:[UIColor blueColor]];
-    //设置俩小球最大半径6
-    [progressBar3 setBallMaxRadius:10];
-    //设置俩小球最小半径3
-    [progressBar3 setBallMinRadius:5];
+    //设置俩小球的半径10
+    [progressBar3 setBallRadius:10];
     //设置动画时间1.5秒
     [progressBar3 setAnimatorDuration:1.5];
     [progressBar3 setAnimatorDistance:40];
@@ -75,10 +69,8 @@
     [self.view addSubview:progressBar4];
     
     [progressBar4 setOneBallColor:[UIColor orangeColor] twoBallColor:[UIColor greenColor]];
-    //设置俩小球最大半径6
-    [progressBar4 setBallMaxRadius:12];
-    //设置俩小球最小半径3
-    [progressBar4 setBallMinRadius:6];
+    //设置俩小球的半径12
+    [progressBar4 setBallRadius:12];
     //设置动画时间1.5秒
     [progressBar4 setAnimatorDuration:1.5];
     [progressBar4 setAnimatorDistance:50];
@@ -90,15 +82,15 @@
     [self.view addSubview:progressBar5];
     
     [progressBar5 setOneBallColor:[UIColor blueColor] twoBallColor:[UIColor grayColor]];
-    //设置俩小球最大半径6
-    [progressBar5 setBallMaxRadius:14];
-    //设置俩小球最小半径3
-    [progressBar5 setBallMinRadius:7];
+    //设置俩小球的半径14
+    [progressBar5 setBallRadius:14];
+
     //设置动画时间1.5秒
     [progressBar5 setAnimatorDuration:1.5];
     [progressBar5 setAnimatorDistance:60];
     
     [progressBar5 startAnimator];
+    
 }
 
 - (void)didReceiveMemoryWarning {

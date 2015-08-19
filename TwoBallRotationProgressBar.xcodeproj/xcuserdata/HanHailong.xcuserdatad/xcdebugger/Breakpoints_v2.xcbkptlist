@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TwoBallRotationProgressBar/TwoBallRotationProgressBar.m"
-            timestampString = "460786335.18227"
+            timestampString = "461693768.972025"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
             landmarkName = "-startOneBallAnimator"
             landmarkType = "5">
          </BreakpointContent>
